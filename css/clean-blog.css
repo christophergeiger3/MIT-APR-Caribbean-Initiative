@@ -3,6 +3,7 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/LICENSE)
  */
+
 body {
   font-size: 20px;
   color: #212529;
@@ -78,7 +79,7 @@ body {
 #mainNav {
   position: absolute;
   border-bottom: 1px solid #e9ecef;
-  background-color: white;
+  background-color: #A31F34;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   
   #mainNav .navbar-brand {
