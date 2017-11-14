@@ -32,6 +32,60 @@ a {
   a:focus, a:hover {
     color: #0085A1; }
 
+	
+.dropdown-header {
+
+	color: white;
+	display: block;
+	padding: 0.5rem 1rem;
+	border: 1px solid transparent;
+	font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	margin-top: 2px;
+
+	
+}
+
+.dropdown-header:hover {
+
+
+	color: #868e96;
+
+
+}	
+
+
+.dropdown-elements {
+
+
+ box-shadow: 5px 5px 5px black;
+
+}
+	
+.sidebar-nav {
+  padding: 9px 0;
+}
+
+.dropdown-menu .sub-menu {
+  left: 100%;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+
+  display: block;
+  
+}	
+	
 .subheader {
 
 	text-align: center;
