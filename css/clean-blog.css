@@ -40,6 +40,23 @@ a {
 
 
 }
+
+.column {
+
+
+	column-count: 3;
+
+
+}
+
+.names {
+
+	font-size: 20px;
+	font-style: italic;
+
+
+
+}
 	
 blockquote {
   font-style: italic;
