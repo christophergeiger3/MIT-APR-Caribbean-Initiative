@@ -82,10 +82,27 @@ blockquote {
   
   }
   
+  #stats {
+  
+  
+	font-size: 20px;
+	font-style: italic;
+	
+  
+  }
+  
+  .dataembed {
+  
+	height: 600px;
+	width: 1075px;
+  
+  }
+  
+  
  .newspaper {
  
 	height: 600px;
-	width: 600px;
+	width: 700px;
  
  
  }
