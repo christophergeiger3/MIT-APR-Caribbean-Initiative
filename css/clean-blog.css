@@ -41,9 +41,17 @@ a {
 
 }
 
+.column-2 {
+
+	
+	column-count: 2;
+
+
+}
+
 .column {
 
-
+	
 	column-count: 3;
 
 
@@ -62,6 +70,26 @@ blockquote {
   font-style: italic;
   color: #868e96; }
 
+  .newsLinks {
+  
+	font-size: 20px;
+  
+  }
+  
+  #news {
+  
+	text-align: center;
+  
+  }
+  
+ .newspaper {
+ 
+	height: 600px;
+	width: 600px;
+ 
+ 
+ }
+  
 .section-heading {
   font-size: 36px;
   font-weight: 700;
