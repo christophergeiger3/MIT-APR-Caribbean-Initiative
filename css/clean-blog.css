@@ -62,8 +62,21 @@ h6 {
 }
 
 .card .card-title {
-  font-size: 24px;
+
+  font-size: 20px;
   font-weight: 300;
+  font-style: italic;
+   
+}
+
+.card-info {
+
+	font-size: 17px;
+	font-style: bold;
+	font-weight: 20;
+	color: black;
+
+
 }
 
 .card .card-title.activator {
@@ -182,6 +195,13 @@ h6 {
   width: 100%;
 }
 
+.center {
+    
+    margin: auto;
+	width: 60%;
+
+}
+
 .card .card-image .card-title {
   color: #fff;
   position: absolute;
@@ -192,12 +212,11 @@ h6 {
 }
 
 .card .card-content {
-  padding: 24px;
   border-radius: 0 0 2px 2px;
 }
 
 .card .card-content p {
-  margin: 0;
+  margin: auto;
   color: inherit;
 }
 
@@ -252,6 +271,7 @@ h6 {
   display: block;
 } 
  
+
  #donateFooter {
  
 	color: white;
