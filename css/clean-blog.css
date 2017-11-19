@@ -68,6 +68,10 @@ a {
 	
 }
 
+.sidebar-nav {
+  padding: 9px 0;
+}
+
 .dropdown-header:hover {
 
 
@@ -79,14 +83,12 @@ a {
 
 .dropdown-elements {
 
-
- box-shadow: 5px 5px 5px black;
+	left: 40px;
+	box-shadow: 5px 5px 5px black;
 
 }
 	
-.sidebar-nav {
-  padding: 9px 0;
-}
+
 
 .dropdown-menu .sub-menu {
   left: 100%;
