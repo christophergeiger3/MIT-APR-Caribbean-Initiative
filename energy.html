@@ -12,6 +12,9 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Materialized JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -24,6 +27,10 @@
   <style></style></head>
 
   <body>
+  
+	<!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
     <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -39,14 +46,14 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <div class="dropdown">
-			<h2 class="dropdown-header">Situation ↓</h2>
+			<h2 class="dropdown-header">Situation ▼</h2>
 			<ul class="dropdown-menu dropdown-elements">
 				<li><a class="nav-link" href="news.html">News</a></li>
 				<li><a class="nav-link" href="data.html">Data</a></li>
 			</ul>
 			</div>
           <div class="dropdown">
-			<h2 class="dropdown-header">Projects ↓</h2>
+			<h2 class="dropdown-header">Projects ▼</h2>
 			<ul class="dropdown-menu dropdown-elements">
 				<li><a class="nav-link" href="water.html">Water</a></li>
 				<li><a class="nav-link" href="energy.html">Energy</a></li>
@@ -54,7 +61,7 @@
 			</ul>
 			</div>
           <div class="dropdown">
-			<h2 class="dropdown-header">Get Involved ↓</h2>
+			<h2 class="dropdown-header">Get Involved ▼</h2>
 			<ul class="dropdown-menu dropdown-elements">
 				<li><a class="nav-link" href="donate.html">Donate</a></li>
 				<li><a class="nav-link" href="projects.html">Project Proposals</a></li>
@@ -83,28 +90,51 @@
     </header>
 
     <!-- Main Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-			<div class="column" style="text-align: center">
-          <h2 class="names">Microgrid Project</h2>
-          <h2 class="names">Goentzel Project</h2>
-          <h2 class="names">Slocum Project</h2>
-        </div>
-        <div class="column" style="text-align: center">
-          <h3 class="subheader">Researching   Implementing   Maintenance</h3>
-          <h3 class="subheader">Researching   Implementing   Maintenance</h3>
-          <h3 class="subheader">Researching   Implementing   Maintenance</h3>
-        </div>
-		<p></p>
-        <div class="column" style="text-align: center">
-          <h3 class="names">Summary | Team | Needs</h3>
-          <h3 class="names">Summary | Team | Needs</h3>
-          <h3 class="names">Summary | Team | Needs</h3>
-        </div>
-    </div>
+    <div class="row center">
+		<div class="col s8">
+			<div class="card">
+				<div class="card-image">
+					<a href="#"><img src="img/aee.jpg"></a>
+					<span class="material-icons">Microgrid Project</span>
+				</div>
+			
+				<div class="card-tabs">
+					<ul class="tabs">
+						<li class="tab"><a href="#desc1-1">1</a></li>
+						<li class="tab"><a href="#desc1-2">2</a></li>
+						<li class="tab"><a href="#desc1-3">3</a></li>
+					</ul>
+				</div>
+				<div class="card-content grey lighten-4">
+					<div id="desc1-1">Description of something and something</div>
+					<div id="desc1-2">Another Description of whatever you want it to be unless its too long then this whole site will crash into an inevitable spiraling black hole</div>
+					<div id="desc1-3">Blah Blah Blah</div>
+				</div>
+			</div>
+		</div>
+		<div class="col s8">
+			<div class="card">
+				<div class="card-image">
+					<a href="#"><img src="img/aee.jpg"></a>
+					<span class="material-icons">Microgrid Project</span>
+				</div>
+			
+				<div class="card-tabs">
+					<ul class="tabs">
+						<li class="tab"><a href="#desc2-1">1</a></li>
+						<li class="tab"><a href="#desc2-2">2</a></li>
+						<li class="tab"><a href="#desc2-3">3</a></li>
+					</ul>
+				</div>
+				<div class="card-content grey lighten-4">
+					<div id="desc2-1">Blah Blah Blah</div>
+					<div id="desc2-2">Blah Blah Blah</div>
+					<div id="desc2-3">Blah Blah Blah</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	</div>
+
 
 
     <!-- Footer -->
