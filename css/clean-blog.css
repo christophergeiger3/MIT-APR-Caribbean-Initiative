@@ -34,8 +34,6 @@ h6 {
  .line {
  
 	background-color: #202020;
-	
-
  }
 
 
@@ -143,6 +141,15 @@ h6 {
   }
 }
  
+.content-tabs {
+
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+	background-color: #c0cad8;
+
+} 
+
 .card-panel {
   -webkit-transition: -webkit-box-shadow .25s;
   transition: -webkit-box-shadow .25s;
