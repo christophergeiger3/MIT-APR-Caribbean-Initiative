@@ -12,6 +12,11 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+	
+	<!-- Materialized JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -24,6 +29,10 @@
   <style></style></head>
 
   <body>
+  
+  <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
     <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -83,28 +92,109 @@
     </header>
 
     <!-- Main Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-			<div class="column-2" style="text-align: center">
-				<h2>Workshop</h2>
-				<h2>Slocum Project</h2>
+    <div class="row center">
+		<div class="col s8">
+			<div class="card">
+				<div class="card-image">
+					<a href="#"><img src="img/water.jpg"></a>
+					<span class="material-icons">Workshop Nov 19-22</span>
+					
+				</div>
+			
+				<div class="card-tabs">
+					<ul class="tabs">
+						<li class="tab"><a href="#desc1-1">1</a></li>
+						<li class="tab"><a href="#desc1-2">2</a></li>
+						<li class="tab"><a href="#desc1-3">3</a></li>
+					</ul>
+				</div>
+				<div class="card-content grey lighten-4">
+					<div id="desc1-1">Description of something and something</div>
+					<div id="desc1-2">Another Description of whatever you want it to be unless its too long then this whole site will crash into an inevitable spiraling black hole</div>
+					<div id="desc1-3">Blah Blah Blah</div>
+				</div>
 			</div>
-			<div class="column-2" style="text-align: center">
-				<h2 class="subheader">November 19 - 22</h3>
-				<h3 class="subheader">Researching / Implementing / Maintenance</h3>
-			</div>
-			<div class="column-2" style="text-align: center">
-				<h3 class="subheader">Researching / Implementing / Maintenance</h3>
-			</div>
-			<p></p>
-			<div class="column-2" style="text-align: center">
-				<h2 class="names">Summary | Team | Needs</h2>
-				<h2 class="names">Summary | Team | Needs</h2>
+			<div class="row">
+				<div class="col s12 m5">
+					<div class="card-panel white">
+						<span>
+							<span class="progrss" style="color: #2980b9">Research</span>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="30"
+								aria-valuemin="0" aria-valuemax="100" style="width:30%">
+								<span >70%</span>
+								</div>
+							</div>
+							<span class="progrss" style="color: #c0392b">Implementation</span>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="10"
+								aria-valuemin="0" aria-valuemax="100" style="width:10%">
+								<span >70%</span>
+								</div>
+							</div>
+							<span class="progrss" style="color: purple">Maintenance</span>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="70"
+								aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								<span>70%</span>
+								</div>
+							</div>
+						</span>
+					</div>
+				</div>
 			</div>
 		</div>
-      </div>
-    </div>
+		<div class="col s8">
+			<div class="card">
+				<div class="card-image">
+					<a href="#"><img src="img/water.jpg"></a>
+					<span class="material-icons">Slocum Project</span>
+				</div>
+			
+				<div class="card-tabs">
+					<ul class="tabs">
+						<li class="tab"><a href="#desc2-1">1</a></li>
+						<li class="tab"><a href="#desc2-2">2</a></li>
+						<li class="tab"><a href="#desc2-3">3</a></li>
+					</ul>
+				</div>
+				<div class="card-content grey lighten-4">
+					<div id="desc2-1">Blah Blah Blah</div>
+					<div id="desc2-2">Blah Blah Blah</div>
+					<div id="desc2-3">Blah Blah Blah</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m5">
+					<div class="card-panel white">
+						<span>
+							<span class="progrss" style="color: #2980b9">Research</span>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="30"
+								aria-valuemin="0" aria-valuemax="100" style="width:30%">
+								<span >70%</span>
+								</div>
+							</div>
+							<span class="progrss" style="color: #c0392b">Implementation</span>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="10"
+								aria-valuemin="0" aria-valuemax="100" style="width:10%">
+								<span >70%</span>
+								</div>
+							</div>
+							<span class="progrss" style="color: purple">Maintenance</span>
+							<div class="progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="70"
+								aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								<span>70%</span>
+								</div>
+							</div>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
 
 
     <!-- Footer -->
