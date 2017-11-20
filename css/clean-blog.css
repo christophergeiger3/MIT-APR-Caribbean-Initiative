@@ -163,7 +163,7 @@ h6 {
   transition: -webkit-box-shadow .25s;
   transition: box-shadow .25s;
   transition: box-shadow .25s, -webkit-box-shadow .25s;
-  border-radius: 2px;
+  border-radius: 25px;
 }
 
 .progrss {
@@ -188,7 +188,6 @@ h6 {
 	font-style: bold;
 	font-weight: 20;
 	color: black;
-
 
 }
 
@@ -306,7 +305,7 @@ h6 {
 
 .card .card-image img {
   display: block;
-  border-radius: 2px 2px 0 0;
+  border-radius: 15px;
   position: relative;
   left: 0;
   right: 0;
@@ -332,7 +331,7 @@ h6 {
 }
 
 .card .card-content {
-  border-radius: 0 0 2px 2px;
+  border-radius: 20px;
 }
 
 .card .card-content p {
