@@ -154,6 +154,7 @@ h6 {
   background-color: #fff;
 }
 
+
 .card {
   position: relative;
   margin: 0.5rem 0 1rem 0;
@@ -163,6 +164,14 @@ h6 {
   transition: box-shadow .25s;
   transition: box-shadow .25s, -webkit-box-shadow .25s;
   border-radius: 2px;
+}
+
+.progrss {
+
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 800;
+
+
 }
 
 .card .card-title {
@@ -175,7 +184,7 @@ h6 {
 
 .card-info {
 
-	font-size: 17px;
+	font-size: 20px;
 	font-style: bold;
 	font-weight: 20;
 	color: black;
@@ -406,6 +415,14 @@ a {
 .dropdown-header {
 
 	color: white;
+	display: block;
+	padding: 0.5rem 1rem;
+	border: 1px solid transparent;
+	font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	margin-top: 2px;color: white;
 	display: block;
 	padding: 0.5rem 1rem;
 	border: 1px solid transparent;
