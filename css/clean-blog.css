@@ -39,17 +39,20 @@ h6 {
  
   .progress {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 600;
   display: -ms-flexbox;
   display: flex;
   height: 2rem;
   overflow: hidden;
   font-size: 0.75rem;
   background-color: #e9ecef;
-  border-radius: 25px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.10), 2px 2px 2px 1px rgba(0, 0, 0, 0.19);
 }
 
 .progress-bar {
  
+	
 	border-right: solid 5px #FFF;
 	width: 34%;
 }
