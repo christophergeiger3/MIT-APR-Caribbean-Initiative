@@ -219,12 +219,23 @@ h6 {
   }
 }
  
-.content-tabs {
+.content-tabs-round {
 
 	font-style: italic;
 	font-weight: 600;
 	text-align: center;
 	background-color: #c0cad8;
+	border-radius: 25px;
+	margin: auto;
+
+} 
+.content-tabs{
+
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+	background-color: #c0cad8;
+	
 
 } 
 
