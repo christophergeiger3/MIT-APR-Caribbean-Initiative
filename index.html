@@ -13,6 +13,7 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	
+	
 	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 	
 	<!-- Materialized JS -->
@@ -33,6 +34,7 @@
 	<!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	  
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -91,7 +93,31 @@
     </div>
   </header>
 
-
+	<div id="carousel" style="border-radius: 20px" class="carousel carousel-slider center" data-indicators="true">
+		<div class="carousel-item grey white-text" href="#one!">
+			<div id="carousel-info">
+				<h2>MIT Caribbean Initiative Conference on Dec.12 & 13th</h2>
+				<p class="white-text">This and this happened here on this day and time</p>
+			</div>
+			<img style="max-height: 100%" src="img/dome.jpg"></img>
+		</div>
+		<div class="carousel-item blue white-text" href="#two!">
+			<h2>MIT APR Giving Initiative</h2>
+			<p class="white-text">Put whatever information you want</p>
+			<img style="max-height: 100%" src="img/apr.jpg"></img>
+		</div>
+		<div class="carousel-item purple white-text" href="#three!">
+			<h2>Third Panel</h2>
+			<p class="white-text">This is your third panel</p>
+		</div>
+		<div class="carousel-item blue white-text" href="#four!">
+			<h2>Fourth Panel</h2>
+			<p class="white-text">This is your fourth panel</p>
+		</div>
+  </div>
+        
+	
+	<script > $('.carousel.carousel-slider').carousel({fullWidth: false});</script>
   <!-- Main Content -->
   <div id="main">
     <div class="container">

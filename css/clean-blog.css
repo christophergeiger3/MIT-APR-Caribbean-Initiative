@@ -36,7 +36,23 @@ h6 {
 	background-color: #202020;
  }
 
+#carousel {
 
+	border-radius: 20px;
+	
+
+
+}
+
+#carousel-info {
+
+
+	max-height: 5%;
+
+
+}
+ 
+ 
  .tabs {
   position: relative;
   overflow-x: auto;
