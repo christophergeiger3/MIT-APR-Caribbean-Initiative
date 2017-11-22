@@ -50,7 +50,6 @@ h6 {
 	display: flex;
 	height: 2rem;
 	overflow: hidden;
-	font-size: 0.75rem;
 	background-color: #e9ecef;
 	border-radius: 90px 90px 0 0;
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.10), 2px 2px 2px 1px rgba(0, 0, 0, 0.19);
